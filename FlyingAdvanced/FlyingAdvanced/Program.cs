@@ -79,7 +79,7 @@ namespace FlyingAdvanced
                 }
                 if (playerPos[1] >= 99)
                 {
-                    Console.WriteLine("玩家{0}无耻的赢了玩家{1}", players[0], players[1]);
+                    Console.WriteLine("玩家{0}无耻的赢了玩家{1}", players[1], players[0]);
                     Win();
                     break;
                 }
